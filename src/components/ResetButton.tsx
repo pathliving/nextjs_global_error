@@ -8,7 +8,7 @@ const ResetButton = ({
   reset: () => void
 }) => {
   return (
-    <button onClick={() => reset()}>Try again</button>
+    <button onClick={reset}>Try again</button>
   );
 };
 
