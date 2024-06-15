@@ -1,6 +1,6 @@
 {
-  "name": "next14emptytest",
-  "version": "0.1.0",
+  "name": "nextjs_global_error",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,17 +8,18 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
-  },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
-  }
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "packageManager": "pnpm@8.15.7"
 }
